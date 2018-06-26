@@ -1,0 +1,500 @@
+   45  third
+   46  $ clear
+   47  git pull origin suri
+   48  git push origin suri
+   49  ls
+   50  rm third
+   51  ls
+   52  git pull --rebase
+   53  git commit -m "srui"
+   54  git push origin suri
+   55  ls
+   56  git checkout sreeke
+   57  rm third
+   58  ls
+   59  git checkout master
+   60  git add kanna02
+   61  ls
+   62  git commit -m "kanna02 file"
+   63  ls
+   64  git push origin master
+   65  ls
+   66  rm first kanna01 kanna02 second ss1 
+   67  ls
+   68  git pull --rebase
+   69  git commit -m "master"
+   70  git push origin master
+   71  ls
+   72  git stash
+   73  ls
+   74  touch 01
+   75  git add 01
+   76  git commit -m "01 test"
+   77  git push origin master
+   78  ls
+   79  rm 01
+   80  git pull --rebase
+   81  git commit -m "01 test"
+   82  git push origin master
+   83  git pull --rebase
+   84  git stash
+   85  ls
+   86  clear
+   87  ls
+   88  rm 01
+   89  git pull --rebase
+   90  git commit -m "01 test"
+   91  git push origin master 
+   92  ls
+   93  ls
+   94  git pull origin master
+   95  git push origin master
+   96  ls
+   97  rm ss1
+   98  git pull --rebase
+   99  git commit -m "jil"
+  100  git pull origin master
+  101  git push origin master
+  102  git checkout sreeke
+  103  rm first
+  104  ls
+  105  git checkout master
+  106  git pull --rebase
+  107  git stash
+  108  ls
+  109  git checkout sreeke
+  110  ls
+  111  git tag -l
+  112  git tag -a "sreek version 01"
+  113  git tag -l
+  114  git tag -a "sreekversion01"
+  115  git tag -l
+  116  git push origin tag sreekversion01
+  117  git checkout master
+  118  git merge sreeke
+  119  hit push origin master
+  120  git push origin master
+  121  ls
+  122  git chekout master
+  123  git merge suri
+  124  git push origin master
+  125  ls
+  126  git checkout suri
+  127  ls
+  128  git checkout sreeke
+  129  ls
+  130  rm kanna01 ss1 third 
+  131  ls
+  132  git pull --rebase
+  133  git commit -m "remove"
+  134  git push origin sreeke
+  135  git push origin sreeke
+  136  clear
+  137  git push origin sreeke
+  138  git diff
+  139  clear
+  140  git checkout master
+  141  touch
+  142  touch 02
+  143  git add 02
+  144  git commit -m "02 file"
+  145  git push origin master
+  146  git push origin master
+  147  git checkout -b dinesh
+  148  ls
+  149  git remote
+  150  git branch
+  151  touch 03
+  152  git add 03
+  153  git commit -m "03 file"
+  154  git push origin dinesh
+  155  git tag -l
+  156  git push origin tag sreekversion-01
+  157  git push origin tag sreekversion01 
+  158  git add .
+  159  sreeke
+  160  git add 01
+  161  cat 01
+  162  ls
+  163  git checkout master
+  164  ls
+  165  git stash
+  166  ls
+  167  clear
+  168  ls
+  169  rm 01 02
+  170  ls
+  171  git pull --rebase
+  172  git commit -m "deleted 01 02 files"
+  173  git push origin master
+  174  git push origin master
+  175  ls
+  176  cat first fourth kanna01 kanna02 second ss1 third 
+  177  cat fourth 
+  178  cat kanna01
+  179  cat 01 02 
+  180  git stash
+  181  cat 01
+  182  cat 02
+  183  cat>>01
+  184  cat 01
+  185  git pull --rebase
+  186  git commit -m "deleted 01"
+  187  git push origin master
+  188  cat 01
+  189  git add 01
+  190  git push origin master
+  191  git push origin master
+  192  git checkout sreeke
+  193  git commit -m "commit the changes"
+  194  git push origin master
+  195  git checkout sreeke
+  196  git merge dinesh 
+  197  git push origin sreeke
+  198  ls
+  199  rm 02 03
+  200  ls
+  201  git pull --rebase
+  202  git commit -m "deleted 02 and 03 files"
+  203  git push origin sreeke
+  204  git add all
+  205  git add --all
+  206  git add -all sreeke
+  207  git add --all sreeke
+  208  LS
+  209  cat 01 first kanna01 kanna02 second ss1 third fourth 
+  210  cat 01 kanna01 first 
+  211  cat 01
+  212  cat first kanna01
+  213  cat kanna01 first 
+  214  clear
+  215  ls
+  216  git checkout master
+  217  ls
+  218  git checkout -l
+  219  git tag -l
+  220  ckear
+  221  clear
+  222  git tag -l
+  223  git tag -d
+  224  git tag -d sreekversion01 
+  225  git config --list
+  226  git config --global user.name
+  227  git config --global user.email
+  228  git init
+  229  git commit 
+  230  ls
+  231  cat>>01
+  232  ls
+  233  cat 01
+  234  git commit
+  235  git commit 
+  236  git add 01
+  237  git commit 
+  238  git push origin master
+  239  git commit
+  240  git commit 
+  241  ls
+  242  cd..
+  243  cd..
+  244  git stash
+  245  ls
+  246  git pull origin master
+  247  ls
+  248  git checkout sreeke
+  249  ls
+  250  rm 02 03
+  251  ls
+  252  git pull --rebase
+  253  git commit 
+  254  git push origin sreeke
+  255  ls
+  256  git commit -m "removed"
+  257  git add --all
+  258  ls
+  259  git commit 
+  260  git push origin sreeke
+  261  rm
+  262  ls
+  263  rm first kanna01
+  264  ls
+  265  rm kanna02
+  266  ls
+  267  ss1
+  268  rm ss1
+  269  ls
+  270  git pull --rebase
+  271  git add -all
+  272  git add --all
+  273  git commit
+  274  git push origin sreeke
+  275  git checkout suri
+  276  ls
+  277  git checkout master
+  278  ls
+  279  git checkout dinesh
+  280  ls
+  281  git checkout master
+  282  git merge dinesh
+  283  git push origin master
+  284  ks
+  285  ls
+  286  git checkout sreeke
+  287  ls
+  288  git merge dinesh
+  289  git checkout sreeke
+  290  git merge dinesh
+  291  ls
+  292  git merge dinesh
+  293  git push origin sreeke
+  294  git checkout dinesh
+  295  git checkout sreeke
+  296  git merge dinesh
+  297  git merge master
+  298  git push origin sreeke
+  299  ls
+  300  git checkout dinesh
+  301  ls
+  302  git checkout master
+  303  ls
+  304  rm 03 first fourth kanna01 kanna02 second ss1 third 
+  305  ls
+  306  git add --all
+  307  git commit
+  308  git push origin master
+  309  git show
+  310  git log
+  311  git branch -r
+  312  git branch -v
+  313  git remote show origin
+  314  git branch -a
+  315  git branch -b
+  316  git branch kanna
+  317  cd c/
+  318  cd c/
+  319  cd..
+  320  clear
+  321  cd /c
+  322  cd kanna_git
+  323  kanna/
+  324  kanna/
+  325  ls
+  326  cd kanna/
+  327  ls
+  328  git branch kkkkk
+  329  git branch
+  330  git branch -r
+  331  git branch remove kkkkk
+  332  git branch 
+  333  git branch -d 
+  334  git branch -d kkkkk 
+  335  git branch remove 
+  336  ls
+  337  git branch
+  338  git branch -d remove
+  339  git branch
+  340  /c
+  341  cd /c
+  342  cd kanna_git
+  343  ls
+  344  cd kanna/
+  345  ls
+  346  git checkout sreeke
+  347  ls
+  348  git branch
+  349  git origin
+  350  git remote
+  351  git remote sree
+  352  git remote
+  353  git remote add sree
+  354  git remote sreekkk
+  355  git remote
+  356  git remote -v sreeeee
+  357  git remote show origin
+  358  git remote rename origin sreeee
+  359  git remote
+  360  git remote 
+  361  git remote rename sreeee origin
+  362  git remote
+  363  git show
+  364  shwo
+  365  show
+  366  git show
+  367  git branch lllllllll
+  368  git branch
+  369  git branch -d lllllllll 
+  370  git branch
+  371  git commit
+  372  git commit
+  373  git status
+  374  git log
+  375  git log
+  376  git show log
+  377  git reflog
+  378  git commit -amend
+  379  git commit --amend
+  380  git diff
+  381  git origin master
+  382  git push origin master
+  383  kanna905
+  384  git push origin master
+  385  git config
+  386  git config --list
+  387  git config --global user.name
+  388  git config --global user.name: "kanna123"
+  389  git config --global user.name "kanna123"
+  390  git cognfig --list
+  391  git config --list
+  392  clear
+  393  cd /c
+  394  clear
+  395  cd /c
+  396  cd kanna_git
+  397  ls
+  398  cd kanna/
+  399  git checkout sreeke
+  400  git merge dinesh
+  401  git push origin sreeke
+  402  git pull origin sreeke
+  403  git push origin sreeke
+  404  git checkout dinesh
+  405  ls
+  406  git checkout sreeke
+  407  ls
+  408  git merge dinesh
+  409  git checkout master
+  410  git checkout sreeke
+  411  git add --all
+  412  git merge dinesh
+  413  git push origin sreeke
+  414  clear
+  415  git checkout dinesh
+  416  ls
+  417  git checkout sreeke
+  418  git merge dinesh
+  419  ls
+  420  git add .
+  421  ls
+  422  git merge dinesh
+  423  ls
+  424  git merge dinesh 02
+  425  git add 02
+  426  git add --all
+  427  git push origin sreeke
+  428  git checkout dinesh
+  429  ls
+  430  rm 02 03
+  431  ls
+  432  git add 02 03 
+  433  git commit 
+  434  git push origin dinesh
+  435  ls
+  436  git pull --rebase
+  437  ls
+  438  git rm
+  439  git rm fourth 
+  440  rm fourth
+  441  ls
+  442  git pull --rebase
+  443  stash
+  444  git stash
+  445  ls
+  446  rm first fourth 
+  447  git pull --rebase
+  448  ls
+  449  git commit 
+  450  git commit
+  451  git add --all
+  452  git commit
+  453  ls
+  454  git push origin dinesh
+  455  ls
+  456  git remote
+  457  git branch
+  458  git config --list
+  459  git config --global user.name "kanna123"
+  460  git config --list
+  461  git config --global user.name "sree123"
+  462  git config --global user.name "sree123"
+  463  ls
+  464  git config --list
+  465  clear
+  466  git init
+  467  git show
+  468  cat kanna01 kanna02 third ss1 
+  469  ls
+  470  cat kanna01 kanna02 third ss1 third 
+  471  cat third
+  472  cat second 
+  473  cat kanna01 kanna02 third ss1 second 
+  474  clear
+  475  ls
+  476  git checkout sreeke
+  477  ls
+  478  cat 01
+  479  cat fourth second third 
+  480  cd..
+  481  cd ..
+  482  git config --list
+  483  git branch
+  484  git remote
+  485  cd kanna/
+  486  ls
+  487  git remote
+  488  git branch
+  489  cd..
+  490  cd ..
+  491  clear
+  492  git diff
+  493  ls
+  494  kanna/
+  495  cd kanna/
+  496  ls
+  497  git diff fourth second
+  498  dit diff
+  499  git diff
+  500  clear
+  501  cd c/
+  502  cd c/
+  503  cd cclear
+  504  cd c/
+  505  cd c
+  506  clear
+  507  cd /c
+  508  cd kanna_git
+  509  ls
+  510  cd kanna/
+  511  ls
+  512  git checkout master
+  513  git branch nayak
+  514  git branch
+  515  git checkout nayak
+  516  git remote
+  517  git remote nayak
+  518  git remote add nayak https://github.com/sreekanth905/kanna.git
+  519  git remote
+  520  git remote -d nayak
+  521  git remote remove nayak
+  522  git remote 
+  523  git remote add nayak 
+  524  git remote add nayak https://github.com/sreekanth905/kanna.git
+  525  git remote
+  526  git checkout master
+  527  git push nayak master
+  528  git branch
+  529  git checkout nayak
+  530  touch iii
+  531  git add iii
+  532  git commit -m "nayak file"
+  533  git status
+  534  git push origin nayak
+  535  git checkout master
+  536  git merge nayak
+  537  git push origin master
+  538  cat>>iii
+  539  git add iii
+  540  git commit
+  541  git push origin master
+  542  git pull origin master
+  543  history 
+  544   history > siba.txt
